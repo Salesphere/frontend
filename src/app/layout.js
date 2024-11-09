@@ -17,9 +17,9 @@ export default function RootLayout({ children }) {
 				<Web3Providers>
 					<main className=" w-dvw h-dvh flex ">
 						<SideBar />
-						<div className=" flex-1 flex flex-col ">
+						<div className="  flex-1 flex flex-col ">
 							<Nav />
-							<div className=" flex-1 overflow-y-auto  flex-shrink-0 ">
+							<div className=" lg:ml-[80px] flex-1 overflow-y-auto overflow-x-hidden  flex-shrink-0 ">
 								{children}
 								<Footer />
 							</div>
